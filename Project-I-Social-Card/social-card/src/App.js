@@ -1,6 +1,10 @@
 import React from 'react';
 import './App.css';
 
+import './components/HeaderComponents/HeaderContainer';
+import './components/CardComponents/CardContainer';
+import './components/FooterComponents/Footer';
+
 const App = () => {
   return (
     <div>
