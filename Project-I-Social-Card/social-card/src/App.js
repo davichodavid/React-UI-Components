@@ -4,6 +4,7 @@ import './App.css';
 import ImageThumbnail from './components/HeaderComponents/ImageThumbnail';
 import HeaderContainer from './components/HeaderComponents/HeaderContainer';
 import CardContainer from './components/CardComponents/CardContainer';
+import Footer from './components/FooterComponents/Footer';
 // import './components/FooterComponents/Footer';
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
       <div>
         <HeaderContainer />
         <CardContainer />
+        <Footer />
       </div>
     </div>
   );
