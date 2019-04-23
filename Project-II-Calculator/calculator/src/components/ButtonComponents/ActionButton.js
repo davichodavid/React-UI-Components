@@ -1,9 +1,12 @@
 import React from 'react';
 import './Button.css';
 
-const ActionButton = () => {
+const ActionButton = (props) => {
   return (
-    <button className="zero-clear">Clear</button>
+    <div>
+      <button className="zero-clear">{props.clearButton[0]}</button>
+      {/* <button className="zero-clear">{props.zeroButton[1]}</button> */}
+    </div>
   );
 }
 

@@ -6,15 +6,19 @@ import ActionButton from './components/ButtonComponents/ActionButton';
 import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
 import Operators from './components/ButtonComponents/Operators'
 
+// const NumArray = ["1", "2", "3", "4", "5", "6", "7", "8", "9", ];
+const action = ["Clear", "0"];
+
 const App = () => {
   return (
     <div className="app-styles">
+      <h2>Propless Calculator</h2>
       <CalculatorDisplay />
       <div className="numbers-operators">
         <div>
-          <ActionButton />
+          <ActionButton clearButton={action} />
           <NumberButton />
-          <ActionButton />
+          {/* <ActionButton zeroButton={action} /> */}
         </div>
         <Operators />
       </div>
