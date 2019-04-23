@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 
 import ImageThumbnail from './components/HeaderComponents/ImageThumbnail';
 import HeaderContainer from './components/HeaderComponents/HeaderContainer';
