@@ -1,0 +1,10 @@
+.app-styles {
+  margin:  0 auto;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.numbers-operators {
+  display: flex;
+}

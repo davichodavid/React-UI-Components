@@ -3,11 +3,13 @@ import './Button.css';
 
 const NumArray = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
-const NumberButton = () => {
+const NumberButton = props => {
   return (
-    NumArray.map(num => {
-      return <button className={props.buttonStyle}> {props.text} </button>
-    })
+    <div className="number-container">
+      {NumArray.map(num => {
+        return <button className="button-styles">{num}</button>
+      })}
+    </div>
   );
 }
 

@@ -1,0 +1,30 @@
+.button-styles {
+  width: 70px;
+  height: 70px;
+  font-size: 2rem;
+  background-color: whitesmoke;
+}
+
+.number-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 22%; 
+}
+
+.zero-clear {
+  width: 210px;
+  font-size: 2rem;
+  background-color: whitesmoke;
+}
+
+.operator-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.operator-styles {
+  height: 100%;
+  width: 90px;
+  font-size: 2rem;
+  background-color: #bf1111;
+}

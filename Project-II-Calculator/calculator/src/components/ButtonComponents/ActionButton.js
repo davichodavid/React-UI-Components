@@ -2,7 +2,9 @@ import React from 'react';
 import './Button.css';
 
 const ActionButton = () => {
-  return ("yup still here");
+  return (
+    <button className="zero-clear">Clear</button>
+  );
 }
 
 export default ActionButton;
