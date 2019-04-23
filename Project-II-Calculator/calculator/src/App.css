@@ -1,0 +1,15 @@
+.app-styles {
+  margin:  10% auto 0;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-styles h2 {
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.numbers-operators {
+  display: flex;
+}

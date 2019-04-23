@@ -1,0 +1,25 @@
+/* All styles for your header Components live here */
+
+.logo {
+  border-radius: 50%;
+  height: 50px;
+  margin-top: 10px;
+  margin-right: 1.5%;
+}
+
+h1 {
+  font-size: 1rem;
+}
+
+h2 {
+  font-size: .7rem;
+}
+
+p {
+  margin: 0 0 10px;;
+}
+
+.header-title {
+  display: flex;
+  align-items: baseline;
+}
